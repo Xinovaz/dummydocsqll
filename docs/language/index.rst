@@ -124,6 +124,8 @@ The next thing we need to do to perfect this is merely attach a decorator to our
 		call .func.print
 		return
 
+	/* ~~snip~~ */
+
 Don't forget to increment that instruction number. The decorator is counted as an instruction by the virtual machine.
 
 Finally, add this one line to your main label, at the start:
@@ -133,7 +135,7 @@ Finally, add this one line to your main label, at the start:
 	main:
 		addr 16
 
-		/* ~~snip~~ */
+	/* ~~snip~~ */
 
 This simply allows memory allocation to occur properly when running the program. All QLL programs begin their memory allocation at address 16, as the first 16 bytes are allocated for front matter and other workings.
 
