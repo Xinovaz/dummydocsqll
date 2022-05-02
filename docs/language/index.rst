@@ -23,6 +23,7 @@ Here, we begin program execution, push a value onto the stack, and end the progr
 ::
 	main:
 		$$pushi 97
+		$out
 		return
 
 If you run this, you should see Rust recompile the parser and print 'a' to the console. Now that we know how to print to the console, it may seem fairly straightforward to repeat this process for every character in the string "Hello, world!" However, we may want to create a function to repeat this task for us. Let's create a new label, above our main label, called ``.func.print``. This label is called automatically by the Arclight VM when a user of the Qyri Programming language calls to ``std.io.stdout.write``.
