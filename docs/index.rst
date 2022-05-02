@@ -9,7 +9,6 @@ Install Rust
 ============
 
 To begin using the Qyri Linking Language (QLL), you need to download Rustup and install Rust. You can do so `here <https://www.rust-lang.org/tools/install>`_. Follow the instructions there to begin using cargo. Next, with `git installed <https://git-scm.com/book/en/v2/Getting-Started-Installing-Git>`_, open your terminal and change directories to where you want to clone the ``qll-based`` branch of the Qyri Programming Language repository using the following command:
-
 ::
 	$ git clone -b qll-based https://github.com/Xinovaz/qyri-lang.git
 
