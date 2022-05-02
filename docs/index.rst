@@ -18,7 +18,6 @@ Testing with QLL
 ================
 
 Once you have cloned the repository, access the ``arclight`` crate, and locate the file named either ``test.qll`` or ``main.qll`` (name may vary between versions of QLL). This file can be renamed if you wish, but the contents therein are what should be edited to customise your program. When you have made the changes you needed to make, and are ready to run the program, run the following command in the ``arclight`` directory:
-
 ::
 	$ cargo run -- <name>.qll
 
